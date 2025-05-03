@@ -9,6 +9,9 @@ import {
 import App from './App.jsx';
 import Home from './Pages/Home/Home';
 import MainLayout from './LayOut/MainLayout';
+import Register from './Pages/Register/Register';
+import AuthProvider from './Context/AuthContext/AuthProvider';
+import SignIn from './Pages/SignIn/SignIn';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/register",
+        element: <Register></Register>
+      },
+      {
+        path: "/signin",
+        element: <SignIn></SignIn>
       }
     ]
   },
@@ -26,6 +37,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <AuthProvider>
     <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>,
 )
