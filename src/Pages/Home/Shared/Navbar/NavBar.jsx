@@ -20,9 +20,6 @@ const NavBar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/">Home</NavLink></li>
-
-       
-
     </>
 
     return (
@@ -49,15 +46,15 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end gap-3">
 
                  {
                     user ? <>
-                    <button onClick={handlesignOut} className="btn">Sign Out</button>
+                    <button onClick={handlesignOut} className="btn btn-outline btn-info">Sign Out</button>
                     </> : <>
-                    <Link to="/register">Register</Link>
+                    <Link to="/register"><button className='btn btn-outline btn-info'>Register</button></Link>
                     <Link to="/signin">
-                    <button className="btn">Sign In</button>
+                    <button className="btn btn-outline btn-info">Sign In</button>
                     </Link>
                     </>
                  }  
