@@ -14,6 +14,8 @@ import AuthProvider from './Context/AuthContext/AuthProvider';
 import SignIn from './Pages/SignIn/SignIn';
 import JobDetails from './Pages/JobDetails/JobDetails';
 import PrivateRoute from './Pages/PrivateRoute';
+import ApplyJob from './Pages/ApplyJob/ApplyJob';
+import MyApplications from './Pages/MyApplications/MyApplications';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
         path: "/job/:id",
         element: <PrivateRoute><JobDetails></JobDetails></PrivateRoute>,
         loader: ({params}) => fetch(`http://localhost:3000/jobs/${params.id}`)
+      },
+      {
+        path: "/jobApply/:id",
+        element: <PrivateRoute> <ApplyJob></ApplyJob> </PrivateRoute>
+      },
+      {
+        path: "/myApplications",
+        element: <PrivateRoute><MyApplications></MyApplications> </PrivateRoute>
       },
       {
         path: "/register",
