@@ -12,7 +12,7 @@ const SignIn = () => {
     const location = useLocation()
     const navigate = useNavigate()
     console.log(location)
-    const from = location.state || '/';
+    const from = location.state?.from?.pathname || '/';
 
     const handleSignIn = e => {
         e.preventDefault();

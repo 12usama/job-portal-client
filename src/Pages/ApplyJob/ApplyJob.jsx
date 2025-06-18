@@ -46,7 +46,7 @@ const ApplyJob = () => {
 
     return (
         
-                <div className=" bg-base-100 w-full shadow-2xl my-8 py-6">
+                <div className=" max-w-xl mx-auto bg-white shadow-md rounded-xl mt-12 p-8">
                     <h1 className="text-5xl text-center font-bold mb-4">Apply now!</h1>
                     <div className="px-8">
                         <form onSubmit={sumbitJobApplication}>

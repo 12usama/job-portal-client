@@ -17,6 +17,10 @@ import PrivateRoute from './Pages/PrivateRoute';
 import ApplyJob from './Pages/ApplyJob/ApplyJob';
 import MyApplications from './Pages/MyApplications/MyApplications';
 import AddJob from './Pages/AddJob/AddJob';
+import AboutUs from './Pages/AboutUs/AboutUs';
+import Contact from './Pages/Contact/Contact';
+import JobSearch from './Pages/JobSearch/JobSearch';
+import ResumeUpload from './Pages/Resume/ResumeUpload';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +31,22 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path:"/about-us",
+        element: <AboutUs></AboutUs>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
+      },
+      {
+        path: "/job search",
+        element: <PrivateRoute><JobSearch></JobSearch></PrivateRoute>
+      },
+      {
+        path:"/resume upload",
+        element: <PrivateRoute> <ResumeUpload></ResumeUpload> </PrivateRoute>
       },
       {
         path: "/job/:id",
