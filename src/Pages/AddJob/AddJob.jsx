@@ -27,7 +27,7 @@ const AddJob = () => {
         };
       
         try {
-          const response = await fetch('http://localhost:3000/jobs', {
+          const response = await fetch('https://job-portal-server-xi-one.vercel.app/jobs', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

@@ -51,7 +51,7 @@ const router = createBrowserRouter([
       {
         path: "/job/:id",
         element: <PrivateRoute><JobDetails></JobDetails></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:3000/jobs/${params.id}`)
+        loader: ({params}) => fetch(`https://job-portal-server-xi-one.vercel.app/jobs/${params.id}`)
       },
       {
         path: "/jobApply/:id",
