@@ -1,12 +1,89 @@
-# React + Vite
+# 💼 Job Portal - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the Job Portal application where users can browse, post, and apply for jobs. 
+Built with **React** and **Vite**, styled using **Tailwind CSS** and **DaisyUI**. 
+It connects seamlessly with the backend to provide real-time job listings and application management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [https://job-portal-client.vercel.app/](https://job-portal-client.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 📝 Post new job listings
+- 🔍 Search and filter jobs
+- 📄 View detailed job descriptions
+- 📤 Apply for jobs
+- 📱 Responsive Design for all devices
+- 🎨 Modern UI with Tailwind CSS + DaisyUI
+- ⚡ Fast performance with Vite
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/12usama/job-portal-client.git
+cd job-portal-client
+npm install
+npm run dev
+```
+
+---
+
+## ⚙️ Environment Variables
+
+To run this project locally, create a `.env` file in the root directory and add:
+
+```env
+VITE_API_URL=https://job-portal-server-xi-one.vercel.app
+```
+
+Make sure the backend server is running and accessible.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology     | Purpose                        |
+|----------------|--------------------------------|
+| React + Vite   | Frontend Framework             |
+| Tailwind CSS   | Styling                        |
+| DaisyUI        | UI Components                  |
+| Axios / Fetch  | API Calls                      |
+| React Router   | Client-side Routing            |
+| Vercel         | Deployment                     |
+
+---
+
+## 🛠️ Backend Repository
+
+👉 Check out the backend code here: [Job Portal Server](https://github.com/12usama/job-portal-server)
+
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Home Page  
+![Home Page](https://i.ibb.co/5Xg2Tjtt/homepage1.png)
+
+### 📝 Job Details Page  
+![Job Details](https://i.ibb.co/WvqWBQ7G/jobdetails.png)
+
+### 📤 Post Job Page  
+![Post Job](https://i.ibb.co/5ztZM4D/postjob.png)
+
+---
+
+## 🙋‍♂️ Author
+
+Developed by **Md. Usama Alam Ridwane**
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/md-usama-alam-ridwane-376b3a1a4/)
+- 📧 usamaridwane@gmail.com
