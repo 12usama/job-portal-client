@@ -8,7 +8,7 @@ It connects seamlessly with the backend to provide real-time job listings and ap
 
 ## 🔗 Live Demo
 
-🌐 [https://job-portal-client.vercel.app/](https://job-portal-client.vercel.app/)
+🌐 [https://job-portal-client-one-rust.vercel.app/](https://job-portal-client-one-rust.vercel.app/)
 
 ---
 
@@ -71,13 +71,16 @@ Make sure the backend server is running and accessible.
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page  
-![Home Page](https://i.ibb.co/5Xg2Tjtt/homepage1.png)
+![Home Page](https://i.ibb.co.com/PvwD0Mm0/jobhome.png)
 
-### 📝 Job Details Page  
-![Job Details](https://i.ibb.co/WvqWBQ7G/jobdetails.png)
+### 📝 Job list Page  
+![Job Details](https://i.ibb.co.com/B5dZkj5P/jobs.png)
 
 ### 📤 Post Job Page  
-![Post Job](https://i.ibb.co/5ztZM4D/postjob.png)
+![Post Job](https://i.ibb.co.com/LdRWzF5h/addjob.png)
+
+### 🔐 Sign In page
+![Sign in](https://i.ibb.co.com/1fyLb657/jobsignin.png)
 
 ---
 
